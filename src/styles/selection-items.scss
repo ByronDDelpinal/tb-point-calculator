@@ -1,0 +1,15 @@
+.selection-items {
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: $spacing-small 0;
+    justify-content: flex-start;
+
+    .selection-item {
+        box-sizing: border-box;
+        flex-basis: 32%;
+        flex-grow: 1;
+        margin-bottom: $spacing-small;
+    }
+}

@@ -1,0 +1,21 @@
+.floating-total {
+  background-color: $brand-primary;
+  border-radius: 50px;
+  bottom: $spacing-small;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 3px #999;
+  color: $brand-white;
+  height: 100px;
+  padding: 17px 0 0 0;
+  position: fixed;
+  right: $spacing-small;
+  text-align: center;
+  width: 100px;
+
+  & .total-number {
+    display: block;
+    font-family: "Roboto Slab", serif;
+    font-size: $font-size-large;
+    font-weight: bold;
+  }
+}

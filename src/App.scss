@@ -1,0 +1,13 @@
+@import './styles/variables.scss';
+@import './styles/typography.scss';
+
+@import './styles/category-divide.scss';
+@import './styles/category-item-list.scss';
+@import './styles/floating-total.scss';
+@import './styles/inputs.scss';
+@import './styles/selection-items.scss';
+@import './styles/title.scss';
+
+.page {
+  padding: 0 $spacing-medium $spacing-medium;
+}

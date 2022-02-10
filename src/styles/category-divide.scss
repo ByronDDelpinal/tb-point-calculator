@@ -1,0 +1,15 @@
+.category-divide {
+    & .category-title {
+        font-size: $font-size-large;
+    }
+
+    & .category-max-reached {
+        color: $brand-primary;
+
+        &::before {
+            color: $brand-primary;
+            content: "\2713";
+            margin-right: 10px;
+        }
+    }
+}
